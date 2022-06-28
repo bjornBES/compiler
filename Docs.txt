@@ -1,0 +1,43 @@
+﻿Get / NameS
+The names is like the namespace is C# is a way for all your class to talk together use it in this way
+NameS NameSname :
+end
+/
+Get is like the using in C# it use the Names like this
+Get System
+Get Bes.stuff
+nameS Bes.stuff.HW :
+end
+/
+Class
+the Class is the base for all the fun in your program use it in this way
+Class ClassName :
+end
+you can use the ClassName in other class/Fun like this
+Class OtherClassName :
+	ValueName = 1 : int
+end
+Class ClassName :
+	Fun FunName :
+		OtherClassName Name = new OtherClassName()
+		Name.ValueName = 2
+	end
+end
+here we set ValueName to 2 instad of 1
+/
+Values
+how to call variable like C# / python like this
+name = value & type
+eg.
+ValueName = 2 & int
+here we are saying that ValueName is an int and equal to 2
+/
+Fun
+a Fun is a way to say stuff to the program eg. Adding to numbers to together like this
+Fun FunName :
+	num1 = 1 : int
+	num2 = 2 : int
+	Add = num1 + num2
+	Return Add
+end
+//console: 3
