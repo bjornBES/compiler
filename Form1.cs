@@ -15,21 +15,6 @@ namespace compiler
     public partial class Form1 : Form
     {
         public string CodeFBSTCS;
-        string code = @"
-        using System;
-            
-        namespace UserFunctions
-        {                
-            public class Program
-            {                
-                public static void Main()
-                {
-                    Console.WriteLine(""HW"");
-                    Console.ReadKey();
-                }
-            }
-        }
-    ";
         public Form1()
         {
             InitializeComponent();
@@ -51,6 +36,7 @@ namespace compiler
             {
                 Console.Text = "Ok";
                 Process.Start(Application.StartupPath + "/" + "Run.exe");
+                CodeBoxCS.Text = CodeFBSTCS;
             }
         }
 

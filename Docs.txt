@@ -35,8 +35,8 @@ here we are saying that ValueName is an int and equal to 2
 Fun
 a Fun is a way to say stuff to the program eg. Adding to numbers to together like this
 Fun FunName :
-	num1 = 1 : int
-	num2 = 2 : int
+	num1 = 1 & int
+	num2 = 2 & int
 	Add = num1 + num2
 	Return Add
 end
