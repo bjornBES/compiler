@@ -17,6 +17,8 @@ namespace compiler
         public string CodeFBSTCS;
         public Form1()
         {
+            TapCode.Hide();
+            TapDosc.Hide();
             InitializeComponent();
         }
 
@@ -43,6 +45,18 @@ namespace compiler
         private void CodeBoxBS_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void CodeTap_Click(object sender, EventArgs e)
+        {
+            TapCode.Show();
+            TapDosc.Hide();
+        }
+
+        private void DocsTap_Click(object sender, EventArgs e)
+        {
+            TapCode.Hide();
+            TapDosc.Show();
         }
     }
 }
